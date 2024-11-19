@@ -1,0 +1,82 @@
+    /* Estilos generales para la sección de administración de categorías */
+    .admin-categories-container {
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .admin-categories-container h1 {
+        text-align: center;
+        color: #333;
+    }
+    
+    /* Estilos de la tabla */
+    .category-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    
+    .category-table th, .category-table td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+    
+    .category-table th {
+        background-color: #4CAF50;
+        color: white;
+    }
+    
+    .category-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    .category-table tr:hover {
+        background-color: #ddd;
+    }
+    
+    /* Botones de acción */
+    button {
+        padding: 8px 16px;
+        margin: 5px;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        opacity: 0.8;
+    }
+    
+    /* Botones específicos */
+    .add-category-btn {
+        background-color: #4CAF50;
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+    .add-category-btn:hover {
+        background-color: #45a049;
+    }
+    
+    .edit-btn {
+        background-color: #FFC107;
+        color: white;
+    }
+    
+    .edit-btn:hover {
+        background-color: #ffb300;
+    }
+    
+    .delete-btn {
+        background-color: #f44336;
+        color: white;
+    }
+    
+    .delete-btn:hover {
+        background-color: #e53935;
+    }
+    

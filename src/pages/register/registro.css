@@ -1,0 +1,144 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f1f1f1;
+  background-image: url(/src/image/thumb-1920-825788.jpg); /* Reemplaza con tu imagen de fondo temática */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contenedor principal */
+.registro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente */
+}
+
+/* Caja de registro más ancha y refinada */
+.registro-box {
+  background: rgba(255, 255, 255, 0.9); /* Fondo blanco suave */
+  padding: 40px 60px; /* Aumenta el padding para más espacio */
+  border-radius: 20px; /* Bordes más redondeados */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra más prominente */
+  width: 100%;
+  max-width: 700px; /* Ampliamos el ancho */
+  text-align: center;
+  backdrop-filter: blur(15px); /* Mayor efecto de vidrio esmerilado */
+  border: 1px solid #ccc; /* Borde suave */
+}
+
+/* Titulo con mayor espacio y estilo */
+.titulo {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #2c3e50; /* Color más natural y serio */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Georgia', serif; /* Fuente serif para un toque académico */
+}
+
+/* Formulario con más separación entre los campos */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 10px 0;
+}
+
+/* Campos de entrada más estéticos */
+.campo {
+  text-align: left;
+}
+
+.label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: 500;
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white; /* Cambié el color del texto a blanco */
+  background-color: rgba(0, 0, 0, 0.9); /* Fondo claro con transparencia */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #2ecc71; /* Verde brillante para resaltar el foco */
+  box-shadow: 0 0 8px rgba(46, 204, 113, 0.5);
+}
+
+/* Sección de rol con separación más clara */
+.campo-rol {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.roles {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px 0;
+}
+
+.rol {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+/* Mensajes de error */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Botones con mayor separación y efectos */
+.btn-submit {
+  background-color: #27ae60; /* Verde para temas naturales */
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btn-submit:hover {
+  background-color: #2ecc71; /* Verde más brillante al pasar el ratón */
+  transform: translateY(-2px);
+}
+
+.btn-back {
+  margin-top: 20px;
+  background-color: #95a5a6; /* Gris suave */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.btn-back:hover {
+  background-color: #7f8c8d; /* Gris más oscuro al pasar el ratón */
+}

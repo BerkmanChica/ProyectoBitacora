@@ -1,0 +1,218 @@
+/* Estilos generales */
+.adb-detalles-bitacora {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.adb-detalles-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.adb-detalles-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.adb-detalles-item {
+    margin-bottom: 10px;
+}
+
+.adb-detalles-item strong {
+    font-weight: bold;
+}
+
+.adb-detalles-item span {
+    margin-left: 10px;
+}
+
+/* Sección de especies */
+.adb-especies-section {
+    margin-top: 20px;
+}
+
+.adb-especies-list {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.adb-especie-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.adb-especie-item:hover {
+    transform: scale(1.05);
+}
+
+.adb-especie-details {
+    margin-bottom: 10px;
+}
+
+/* Botón para agregar especie */
+.adb-btn-agregar-especie {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.adb-btn-agregar-especie:hover {
+    background-color: #45a049;
+}
+
+/* Modal de formulario para agregar nueva especie */
+.adb-especie-formulario-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.adb-modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 500px;
+}
+
+.adb-modal-content h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.adb-detalles-item input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.adb-detalles-item label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Botones dentro del formulario */
+.adb-btn-agregar {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.adb-btn-agregar:hover {
+    background-color: #45a049;
+}
+
+.adb-btn-close {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.adb-btn-close:hover {
+    background-color: #e53935;
+}
+
+/* Detalles de la especie */
+.adb-especie-detalles-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.adb-especie-detalles-modal .adb-modal-content {
+    width: 80%;
+    max-width: 600px;
+}
+
+.adb-especie-detalles-modal .adb-detalles-item {
+    margin-bottom: 15px;
+}
+
+/* Botón de Cerrar detalles */
+.adb-btn-close {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.adb-btn-close:hover {
+    background-color: #e53935;
+}
+
+/* Estilos de carga */
+.adb-error-message {
+    color: #f44336;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.adb-btn-regresar {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.adb-btn-regresar:hover {
+    background-color: #1e88e5;
+}
+.adb-especie-image {
+    max-width: 100%; /* La imagen tomará el ancho completo del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados si lo deseas */
+    margin-top: 10px;
+}
